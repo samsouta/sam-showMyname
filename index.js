@@ -4,7 +4,7 @@ export function showMyName (x){
 }
 export function showMyNameUI(y){
     const h1 =document.querySelector("h1");
-    h1.innerText = myName;
+    h1.innerText = y;
     h1.style.position = "fixed";
     h1.style.zIndex = 100000;
     h1.style.fontSize = 100+"px";
